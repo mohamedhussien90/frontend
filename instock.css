@@ -1,0 +1,14 @@
+
+.instock{
+    display: flex;
+    
+    align-items: center; 
+    margin-top: -280px; 
+    margin-left: 60px;
+    
+}
+
+.in-stock {
+    color: deepskyblue;
+    padding-right: 5px;
+  }

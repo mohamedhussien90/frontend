@@ -1,0 +1,22 @@
+.fbuttons{
+    display: flex;
+    
+    align-items: center;      
+    height: 40px;           
+    margin-top: 10px;
+    margin-left: 130px;
+
+   
+}
+
+.buttonone{
+    margin-left: 10px;
+}
+
+.buttontwo{
+    margin-left: 10px;
+}
+
+.buttonthree{
+    margin-left: 10px;
+}

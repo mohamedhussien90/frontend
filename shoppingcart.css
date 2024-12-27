@@ -1,0 +1,115 @@
+.cart-page {
+    background-color: #242424;
+    max-width: 800px; /* Adjust as needed */
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+  
+    
+}
+
+.background-image{
+
+    
+    background-image: url('./assets/backcart.jpg'); /* Path relative to the CSS file */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+    height: 100vh;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+
+
+}
+
+.item-name {
+    flex: 1; /* Allow item name to take up remaining space */
+
+
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+
+
+}
+.quantity-controls button{
+    width: 25px;
+    height: 25px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.quantity {
+    margin-right: 5px;
+    margin-left: 5px;
+  
+    
+}
+.remove-button {
+    background-color: #dc3545; /* Red */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.cart-summary{
+    margin-top: 20px;
+    text-align: right;
+
+
+}
+
+.cart-summary button{
+    margin-left: 10px;
+    background-color: #007bff; /* Blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+
+}
+
+.choose-city{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.address{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.addressinput{
+    width: 300px;
+    height: 25px;
+}
+
+.item-price{
+    margin-right: 7px;
+}
+
+.plusbutton{
+    text-align: center;
+    padding: 0px 5px 5px 5px;
+}
+
+.minusbutton{
+    text-align: center;
+    padding: 0px 5px 5px 5px;
+}

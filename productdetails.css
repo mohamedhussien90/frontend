@@ -1,0 +1,38 @@
+.productdetails {
+    display: flex;
+    
+    gap: 20px;
+    padding: 20px;
+    width: 70%;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 300px;
+    border: 1px solid hsl(0, 0%, 97%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsl(20, 10%, 94%);
+  }
+  
+ 
+  
+
+
+  .imagedetails{
+    padding-top: 50px;
+    padding-right: 30px;
+  }
+  
+
+  
+  .description {
+    flex-grow: 1; 
+  }
+  
+  .price {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+
+  .seller{
+    font-size: 1.2em;
+    font-weight: bold;
+  }
